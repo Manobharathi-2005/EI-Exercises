@@ -49,7 +49,7 @@ This project was built using specific design patterns to ensure a clean, scalabl
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/Manobharathi-2005/EI-Exercises.git
     ```
 
 2.  **Navigate to the project directory:**
