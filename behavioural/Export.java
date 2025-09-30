@@ -23,14 +23,12 @@ interface ExportStrategy {
     void export(ReportData data);
 }
 
-/**
- * Concrete Strategies that implement different export formats.
- */
+
 class CsvExportStrategy implements ExportStrategy {
     @Override
     public void export(ReportData data) {
         System.out.println("Exporting report '" + data.getTitle() + "' to CSV format.");
-        // In a real application, logic to generate a CSV file would go here.
+    
         System.out.println("CSV content: title,content\n\"" + data.getTitle() + "\",\"" + data.getContent() + "\"");
     }
 }
@@ -44,9 +42,6 @@ class JsonExportStrategy implements ExportStrategy {
     }
 }
 
-/**
- * The Context class that uses an export strategy.
- */
 class ReportGenerator {
     private ExportStrategy exportStrategy;
 
@@ -69,16 +64,16 @@ public class ExportDemo {
         ReportGenerator reportGenerator = new ReportGenerator();
         ReportData salesData = new ReportData("Q3 Sales Report", "Total sales reached $500,000.");
 
-        // First, export the report as a CSV file.
+
         System.out.println("--- User selects CSV export ---");
         reportGenerator.setExportStrategy(new CsvExportStrategy());
         reportGenerator.generateReport(salesData);
 
         System.out.println("\n----------------------------------\n");
 
-        // Now, the user decides to export the same report as a JSON file.
         System.out.println("--- User selects JSON export ---");
         reportGenerator.setExportStrategy(new JsonExportStrategy());
         reportGenerator.generateReport(salesData);
     }
+
 }
