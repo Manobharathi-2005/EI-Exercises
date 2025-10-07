@@ -58,19 +58,6 @@ This project was built using specific design patterns to ensure a clean, scalabl
     cd astronaut-schedule-organizer
     ```
 
-3.  **Compile and run the application using the provided scripts:**
-
-      * On **Windows**:
-        ```bash
-        run.bat
-        ```
-      * On **macOS or Linux**:
-        ```bash
-        sh run.sh
-        ```
-
------
-
 ## 📋 Usage Examples
 
 The application accepts commands directly in the console.
