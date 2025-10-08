@@ -1,7 +1,21 @@
+# EI Study CampusDrive
+
+This repository contains solutions for the EI (Educational Initiatives) Campus Drive test exercises. The solutions are implemented using **Java**.
+
+## Submission By
+
+* **Name**: Manobharathi M
+* **Roll No**: 225324
+* **Email**: m.manobharathi25@gmail.com
+* **Department**: IT (Information Technology)
+
+---
+
 # 🚀 Astronaut Daily Schedule Organizer
 
 A console-based application designed to help astronauts manage their daily tasks. This project was built as a coding exercise to demonstrate proficiency in Java, Object-Oriented Programming, and the application of core software design patterns. The focus is on clean architecture, robust backend logic, and adherence to professional coding standards.
------
+
+---
 ## ⭐ Features
 
 This application allows users to manage a daily schedule with the following capabilities:
